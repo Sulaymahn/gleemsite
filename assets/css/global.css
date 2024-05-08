@@ -1,0 +1,159 @@
+:root {
+    --primary_color: #FF794D;
+    --secondary_color: #7f99e2;
+    --background_color_dark: #202224;
+}
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: var(--background_color_dark);
+    font-family: Outfit, sans-serif;
+}
+
+h1, h2 {
+    padding: 0;
+    margin: 0;
+}
+
+strong {
+    color: var(--primary_color);
+}
+
+h1, strong {
+    font-weight: 900;
+}
+
+.hero {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+}
+
+#news_sub_btn, #news_sub_input {
+    height: 48px;
+    font-weight: 600;
+}
+
+#news_sub_input {
+    display: block;
+    border-width: 0px;
+    width: 100%;
+    background-color: #f2f2f2;
+    margin-bottom: 16px;
+    padding: 4px 16px;
+    box-sizing: border-box;
+}
+
+    #news_sub_input:focus {
+        outline: none;
+    }
+
+#news_sub_btn {
+    display: block;
+    width: 100%;
+    background-color: var(--primary_color);
+    border-width: 0px;
+    color: white;
+}
+
+.gleem-button {
+    height: 48px;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    background-color: var(--primary_color);
+    color: white;
+    border: 0px;
+    transition: transform 0.2s ease-in-out, background-color 0.1s ease-in-out;
+}
+
+    .gleem-button:hover {
+        background-color: var(--secondary_color);
+        transform: rotate(2deg) scale(1.2);
+    }
+
+a.gleem-link {
+    text-decoration: none;
+    color: white;
+}
+
+    a.gleem-link:hover {
+        color: var(--secondary_color);
+    }
+
+.cls-1 {
+    font-size: 55.25px;
+    font-family: Outfit-Bold, Outfit;
+    font-weight: 700;
+}
+
+.cls-1, .cls-2 {
+    fill: #fff;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.icon-link > .bi {
+    width: .75em;
+    height: .75em;
+}
+
+
+a {
+    color: white;
+}
+
+    a.link-active {
+        color: var(--primary_color);
+    }
+
+
+/* body {
+    margin: 0;
+    font-family: 'Outfit', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#section1{
+    min-height: 100vh;
+    background-color: #261893;
+}
+
+#navBar{
+    padding: 32px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#navLogo{
+    height: 32px;
+}
+
+.navLink{
+    display: block;
+    margin: 0 4vw;
+    text-decoration: none;
+    color: white;
+}
+
+#contactUsButton{
+    height: 36px;
+    width: 100px;
+    font-family: 'Outfit';
+    color: #261893;
+    font-weight:500;
+    border-radius: 18px;
+    border-width: 0px;
+    padding: 0 16px;
+}
+
+#navLinkContainer{
+    display: flex;  
+} */
